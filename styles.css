@@ -1,0 +1,116 @@
+html, body{
+    background-color: #ECEEF1;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 4% auto 1%;
+}
+
+.logoIntuit, .logoMint, .logoQuick, .logoTurbo{
+    background-image: url(./Images/intuitIcons.png);
+}  
+
+.logoIntuit{
+    width: 115px;
+    height: 35px;
+    margin-bottom: 2%;
+}
+
+.logoMint{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-position: 310px 30px;
+}
+
+.logoQuick{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    background-position: 450px 30px;
+}
+
+.logoTurbo{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-position: 562px 30px;
+}
+
+.sectionForm{
+    width: 100%;
+    min-height: 50vh;
+}
+
+.formContainer{
+    width: 17%;
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid #c7c7c7;
+}
+
+.formContainer h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.formContainer h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: grey;
+    margin: 0;
+}
+
+.formText{
+    margin-bottom: 20px;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formInput input{
+    margin-top: 10px;
+    border: 1px solid #C1C5C8;
+    border-radius: 5px;
+    height: 34px;
+    font-size: 18px;
+}
+
+.btnSubmit{
+    width: 100%;
+    background-color: #0077C5;
+    border-color: #0077C5;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.formContainer p{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    font-style: italic;
+    margin-top: 20px;
+}
